@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocorrências</title>
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+
+    <body>
+        <nav>
+            <div id="logo-container">
+                <a href="index.html">
+                    <div id="logo"></div>
+                </a>
+                <h2>Health Tech</h2>
+            </div>
+            <div id="opcoes-nav">
+                <a href="cadastrar-paciente.html" id="login">Cadastrar Paciente</a>
+            </div>
+        </nav>
+
+
+        <div id="buscar-ambulancia">
+            <h1>Procurar Ambulância</h1>
+  
+            <!-- Barra de pesquisa -->
+            <label for="placa">Digite a placa da ambulância:</label>
+            <input type="text" id="placa" name="placa">
+            <button onclick="buscarOcorrencias()">Buscar</button>
+          
+            <!-- Resultados da busca -->
+            <ul id="resultados"></ul>
+        </div>
+    </body>
+
+</html>
